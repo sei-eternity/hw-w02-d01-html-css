@@ -1,50 +1,135 @@
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-/******************************************
-/* FONTS
-/*******************************************/
-
-/* font-family: "Open Sans", Arial, sans-serif */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
+* {
+    box-sizing: border-box;
+  }
+  h2{
+      font-size: 20px;
+      font-weight: 600;
+      color: #033048;
+  }
+  li{
+      color: #606161;
+  }
+  footer{
+      font-weight: 500;
+      font-size: 9px;
+      color: #606161;
+      margin: 14px;
+  }
+
+  span{
+      display: block;
+      background-color: #f9e42e;
+      padding: 20px
+  }
+  #signup{
+    display: inline;
+    align-content: center;
+    background-color: #033048;
+    margin: 5px;
+    padding: 7px;
+    border: 5px;
+    color: #f0efef;
+  }
+  
+  
+  .column {
+   
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  #relaxr{
+font-size: 24px;
+font-weight: 900;
+color: #f0efef;
+margin: 40px;
 
 
-body {
-    color: #000;
-    font-size: 12px;
-    line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
-}
+  }
+  #getP{
+
+    font-size: 24px;
+    font-weight: 500;
+    align-self: center;
+    color: #f0efef;
+    position: relative;
+    right: -38%;
+  }
+  #getIt{
+      display: inline;
+font-size: 14px;
+font-weight: 900;
+border: 5px;
+background-color: #f9e42e; 
+color: #033048;
 
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-header {
-
-}
-
-footer {
-
-}
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+padding: 6px 20px 6px 20px;
 
 
+  }
+  
+  #theP{
+
+    font-size: 13px;
+    font-weight: 300;
+    color: #606161;
+  }
+  #list{
+    font-size: 13px;
+    font-weight: 300;
+
+  }
+  blockquote{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    border-bottom: 20px;
+  }
+  #qouteN{
+
+   font-weight: 600;
+   color: #f0efef;
+    font-size: 18px;
+  };
+
+  #signup{
+      text-align: center;
+      font-size: 18px;
+      font-weight: 900;
+      border: 5px;
+      position: relative;
+      right: 200px;
+      
+      
+  }
+  #relaxr2{
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9e42e;
 
 
+
+  }
+  .social{
+      display: inline;
+      margin: 15px 10px 15px 10px;
+      
+  }
+  .sec1{
+      /* height: 700px;
+      width: 120%; */
+      display: block;
+  }
+
+  
