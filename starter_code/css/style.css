@@ -4,9 +4,9 @@
 
 /* Box Model */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
 }
 
 /******************************************
@@ -14,37 +14,149 @@
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 /******************************************
 /* BASE STYLES
 /*******************************************/
+h1{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 800;
+  
+   margin: 0px;
+   color: #f0efef;
+   padding-top: 30px;
+   padding-left: 30px;
+   text-align: left;
+   font:  bold 24px;
 
+}
+h2{
+   font-weight: 500; 
+   /* font-size:90px; */
+   margin: 0;
+   padding-top: 30px;
+   color: #f0efef;
+   font: Semibold, 24px;
+}
+h3{color: darkblue;}
 
 body {
-    color: #000;
-    font-size: 12px;
-    line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
+   color: #000;
+   font-size: 12px;
+   line-height: 1.4;
+   font-family: Helvetica, Arial, sans-serif;
+
+   margin: 0px;
+  
 }
 
+.button_background{
+   background-color: #f9e42e;
+   margin-top: 0; 
+  /* background-size: -14px; */
+  height:100px;
+   
+}
+
+
+.relax{
+   color: #f9e42e;
+   margin: 0px;
+   /* font-size: 44px; */
+   font: bold, 24px
+   
+}
+button{
+    /* font-size: 30px; */
+   color: #121212;
+   background-color: #f9e42e;
+
+
+   font :Extra bold, 14px. 5px border radius
+  
+   
+}
+.benefits{
+   
+   background-color: #f0efef;
+ background-size: 303px;
+ margin-bottom: -80px;
+   margin-top: -40px;
+   font-family: 'Open Sans';
+Weight: Light, Light Italic, Semibold, Extrabold;
+font: Semibold, 20px;
+
+
+}
+#theperfec{
+    font:  Light, 13px;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 header {
+   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   background-size: cover;
+   width: 100%;
+   height: 300px;
+   margin: 0px;
+   text-align: center;
+
 
 }
 
 footer {
-
+    background-color: #121212;
+   margin: 0px;
+}
+.experience{
+   background:url(../images/testimonial_bg.jpg);
+   /* background-size: auto; */
+   width: 100%;
+   height: 100px;
+   color: white;
+   font-style: italic;
+   /* font-size: 30px; */
+   /* font: Light Italic, 18px; */
+   margin-top: 83px;
+   margin-bottom: 0px;
+   text-align: center;
+   font:Light Italic, 18px
+   
 }
 
+strong{font:semibold, 18px;}
+.blue{
+    color: white;
+    /* font-style: italic; */
+    background-color: darkblue;
+    /* margin: 30px; */
+  margin-top: 30px; 
+    margin-bottom: 30px; 
+    margin-left: 600px;
+    font: extra bold, 12px, 5px border radius;
+  
+}
+.copyright{
+    color: #f0efef;
+    margin-left: 590px;
+    margin-top:55px; 
+    
+font: 9px, semibold;
+
+}
+  
+.twitterImg{
+    margin-left: 590px;
+}
+.facebookImg{
+    margin-left: 90px;
+    
+}
+ul{font :Light, 13px}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
 
