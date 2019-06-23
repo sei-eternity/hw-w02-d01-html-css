@@ -22,26 +22,141 @@
 
 
 body {
-    color: #000;
-    font-size: 12px;
+    color: #f0efef;
+    font-size: 26px;
     line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
-}
+    color: #606161;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  
+  /* Center the container */
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 800;
+  }
+  
+  div .logo {
+    color: #fff;
+    float: left;
+  }
 
+  #relax {
+    height: 700px;
+    background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+    padding-top: 32px;
+  }
+  
+  #relax .logo {
+    color: #fff;
+    font-weight: 24px;
+  }
+  #relax h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    margin: 120px 0 90px;
+    font-weight: 24px;
+  }
+  .button {
+    border-radius: 5px;
+    font-weight: 24px;
+    padding: 12px 0;
+    width: 280px;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .yellow {
+    background: #f9e42e;
+    color: #033048;
+  }
+  .blue {
+    background: #033048;
+    color: #fff;
+    font-size: 24px;
+  }
+  #benefits {
+    padding: 100px 0 80px;
+    background-color: #f0efef
+  }
+  h3 {
+    color: #033048;
+    font-size: 40px;
+    font-weight: 20px;
+    margin-bottom: 40px;
+  }
+  #benefits p, #benefits ul {
+    width: 600px;
+    font-weight: 13px;
+  }
+  #benefits ul {
+    list-style: disc;
+    margin: 30px 0 0 80px;
+  }
+  blockquote {
+    font-size: 36px;
+    font-weight: 18px;
+    font-style: italic;
+    text-align: center;
+    width: 580px;
+    margin: 0 auto;
+  }
+  blockquote span {
+    font-weight: 600;
+    display: block;
+    font-style: normal;
+  }
+  #testimonial {
+    background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+    padding: 70px 0 70px;
+    color: #fff;
+  }
+  #bottom-btn {
+    background: #f9e42e;
+    padding: 30px;
+    text-align: center;
+  }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-header {
-
-}
-
-footer {
-
-}
-
-/******************************************
+  footer .logo {
+    color: #f9e42e;
+    font-weight: 24px;
+    margin-bottom: 68px;
+  }
+  footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 26px 75px;
+  }
+  footer p {
+    font-size: 9px;
+    color: #fff;
+    font-weight: 600;
+  }
+  footer .lgoo, footer ul li {
+    margin-bottom: 30px;
+  }
+  footer {
+    background: #121212;
+    padding: 65px 0 45px;
+    text-align: center;
+  }
+  
+  /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
