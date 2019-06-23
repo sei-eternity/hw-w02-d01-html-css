@@ -37,8 +37,130 @@ header {
 
 }
 
-footer {
+.relaxr{
+    background-image: url("../images/header_bg.jpg");
+    height: 600px;
+    text-align: center;
+}
+.company{
+    font-weight: bolder;
+    font-size: 24px;
+    color: white; 
+    text-align: left;
+    margin-left: 10px;
+}
+.piece{
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
 
+}
+.now{
+    background-color: #f9e42e;
+    color:  #033048;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-weight: bolder;
+    border: 5px solid #f9e42e;
+    /* margin-left: 400px; */
+ 
+}
+.gray{
+    background-color: #f0efef;
+    padding-bottom: 50px;
+    padding-top: 30px;
+   
+
+}
+.benefits{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #033048;
+
+}
+.perfect{
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-right: 800px;
+    color: #606161;
+}
+ul{
+    list-style-type: circle;
+    margin-left: 70px;
+    margin-right: 800px;
+    color: #606161;
+
+
+
+}
+.saying{
+    background-image: url("../images/testimonial_bg.jpg");
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    
+
+
+}
+.change{
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.last{
+    background-color: #f9e42e;
+    height: 90px;
+    text-align: center;
+    padding-top: 40px;
+    
+
+}
+.sign{
+    background-color: #033048;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+   width: 150px;
+    
+
+}
+
+footer {
+    background-color: #121212;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+
+
+}
+.copy{
+    font-weight: bolder;
+    color:  #f9e42e;
+    font-size: 24px;
+    /* padding: 20px; */
+
+
+}
+img{
+    padding: 20px;
+}
+.right{
+    font-weight: 600;
+    font-size: 9px;
+    padding-bottom: 10px;
 }
 
 /******************************************
