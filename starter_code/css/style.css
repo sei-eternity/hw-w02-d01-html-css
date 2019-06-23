@@ -22,24 +22,147 @@
 
 
 body {
-    color: #000;
     font-size: 12px;
     line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:'Open Sans', Helvetica, Arial, sans-serif;
+    background-color: #f0efef;
+    color: #606161;
 }
-
+a{
+    text-decoration:none;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 header {
-
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container1, .container2, .container3 {
+    width:900px;
+    margin: 0 auto;
+}
+/* "Relaxr" - Extra bold, 24px */
+.relaxr{
+    font-size: 24px;
+    font-weight: 800px;
+    color: white;
+}
+/* Semibold, 24px */
+h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+  }
+  /* Get it Now" - Extra bold, 14px. 5px border radius */
+.button1{
+    background: #f9e42e;
+    color: #033048;
+    display: block;
+    font-weight: 800; 
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    margin: 0 auto;
 }
 
+/* Benefits" - Semibold, 20px */
+
+h3{
+    color: #033048;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+
+/* "The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px */
+.section1 p, .section1 ul {
+    font-size: 13px;
+    font-weight: 300;  
+  
+}
+.section1 ul{
+    list-style: disc;
+    margin-top: 40px;
+    margin-bottom:40px;
+    margin-left: 90px;
+}
+
+
+.section2 {
+    background: url(../images/testimonial_bg.jpg); 
+    padding: 90px;
+    color: white;
+  }
+  /* "“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+*/
+  .section2 p{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+  /* "- Amanda, Intuit " - semibold, 18px  */
+.section2 span{
+  font-weight: 600;
+  font-size: 18px;
+  display: block;
+  font-style: normal;
+}
+.section3{
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center 
+}
+/* "Sign Up Now!" - extra bold, 12px, 5px border radius */
+.button2{
+    background: #033048; 
+    color:white;
+    display: block;
+    font-weight: 800; 
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    margin: 0 auto;
+}
+/* "Copyright 2015. Relaxr." - 9px, semibold */
 footer {
-
+    background: #121212;
+    padding: 65px;
+    text-align: center;
+    font-size: 9px;
+    color: #fff;
+    font-weight: 600;
 }
+/* Relaxr - extra bold, 24px */
+footer .relaxr{
+    font-size: 24px;
+    font-weight: 800px;
+    color: #f9e42e;
+    margin-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
