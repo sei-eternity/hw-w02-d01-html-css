@@ -22,10 +22,11 @@
 
 
 body {
-    color: #000;
+    text-align: center;
+    color: #ffffff;
     font-size: 12px;
     line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 
@@ -34,17 +35,121 @@ body {
 /*******************************************/
 
 header {
-
+background-image: url("/home/bedour/sei/homeworks/hw-w02-d01-html-css/starter_code/images/header_bg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 650px;
+padding: 40px;
 }
 
 footer {
-
+    background-color: #121212;
+    color: #ffffff;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+h1{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+header p{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 120px 0 35px;
+}
+header button{
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 800;
+    background-color: #f9e42e;
+}
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #033048;
+    padding-bottom: 20px;
+}
 
-
-
-
+main{
+    background-color: #f0efef;
+}
+#section1{
+    color: #606161;
+    height: 320px;
+    padding: 50px;
+    text-align: left; 
+    width: 540px;
+    font-size: 17px;
+    font-weight: 300;
+}
+#section2{
+    background-image: url("/home/bedour/sei/homeworks/hw-w02-d01-html-css/starter_code/images/testimonial_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+#section2 p{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 40px;
+    font-style: italic;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+span{
+    font-weight: 600;
+    font-style: normal;
+}
+ul{
+    font-size: 17px;
+    font-weight: 300;
+    list-style: disc;
+    margin: 30px 0 0 80px;
+}
+#section3{
+    background-color: #f9e42e;
+    height: 80px;
+}
+h3{
+    color:  #f9e42e;
+    font-weight: 800;
+    font-size:  24px;
+    padding: 35px 0 5px 0;
+}
+nav img{
+    padding: 20px;
+}
+footer p{
+    font-size: 9px;
+    font-weight: 600;
+    padding: 9px;
+}
+.button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 800;
+    width: 280px;
+    margin: 15px 8px 15px 8px;
+    padding: 15px 32px;
+  }
+  .yellow {
+    background: #f9e42e;
+    color: #033048;
+  }
+  .blue{
+    background: #033048;
+    color: #ffffff;
+  }
