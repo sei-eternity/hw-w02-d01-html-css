@@ -34,7 +34,10 @@ body {
 /*******************************************/
 
 header {
-    background-image: url('/images/header_bg.jpg');
+    background: url('/images/header_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
     font-size: 24px;
     color: #fff;
     padding: 50px;
