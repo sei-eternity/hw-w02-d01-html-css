@@ -44,7 +44,59 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.body {
+	color: #f0efef
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
 
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
+.header {
+	font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.container .btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f9e42e;
+  color: black;
+  font-size: 30px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.sentence {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
