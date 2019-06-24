@@ -28,6 +28,150 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body .row1 h1{
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 45px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+body .row1 h2{
+  color: #fff;    
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size: 40px;    
+}
+
+body .row1 img{
+    height: 600px;
+    width: 1340px;
+    margin-left: 2px;
+}
+
+body .row1 button{
+    
+    padding: 15px 15px;
+    border-radius: 15px;
+  background-color: #FF8c00;
+  color: dimgrey;    
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size: 40px;    
+}
+
+body .row2{
+    height: 600px;
+    width: 1340px;
+    background-color: gainsboro;
+    margin-left: 2px;
+}
+
+body .row2 h1{
+    font-weight: bold;
+    color: darkblue;
+    margin-left: 25px;
+    font-size: 45px;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+
+body .row2 p{
+    color: blue;
+    font-size: 25px;
+    padding: 50px 600px 40px 150px;
+}
+
+body .row2 ul{
+        color: blue;
+    font-size: 25px;
+    padding: 0px 600px 20px 210px;
+    list-style-type: circle;
+}
+
+body .row3 img{
+    height: 350px;
+    width: 1340px;
+    margin-left: 2px;
+}
+
+.row3 p{
+  color: #fff;    
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size: 20px;
+    font-style: italic;
+}
+
+.row3 h2{
+  color: #fff;    
+  position: absolute;
+  top: 230%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size: 20px;
+    font-weight: bold;
+}
+
+.row4{
+    height: 150px;
+    width: 1340px;
+    margin-left: 2px;
+    background-color: goldenrod;
+}
+
+.row4 button{
+        padding: 15px 15px;
+    border-radius: 12px;
+  background-color: blueviolet;
+  color: white;    
+  position: absolute;
+  top: 262%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size: 40px; 
+}
+
+.row5{
+    height: 250px;
+    width: 1340px;
+    margin-left: 2px;
+    background-color: darkslategray;
+}
+
+.row5 h1{
+  color: yellow;    
+  position: absolute;
+  top: 290%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size: 40px; 
+}
+.row5 img{ 
+  
+  position: absolute;
+  top: 300%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.row5 p{
+    color: white;
+    position: absolute;
+  top: 310%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /******************************************
 /* LAYOUT
