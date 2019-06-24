@@ -34,17 +34,117 @@ body {
 /*******************************************/
 
 header {
+    background-image: url("../images/header_bg.jpg");
+    padding: 100px;
+    color: white;
+}
+header h1 {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 100px;
+    float : left ; /* using float to make h1 left */ 
+    margin-top: -70px;
+    
 
 }
+
+header h2 {
+    margin-bottom: 100px;
+    text-align: center; 
+    font-family: Semibold; 
+    font-size: 24px;
+}
+header .button{
+    background: #f9e42e; 
+    border-radius: 14px  ; 
+}
+
+#first {
+    background: #f0efef;
+    color: #606161;
+    font-size: 13px;
+    padding: 50px 150px;
+
+}
+#first h1{
+    color : #033048;   
+    font-family: 
+}
+#first h1 {
+    float: initial;
+}
+#sec {
+    font-family: semibold ; 
+    font-size: 18px; 
+    background-image: url("../images/testimonial_bg.jpg");
+    color: white;
+  font-size: 18x;
+  padding: 100px 400px;
+  text-align: center;
+    
+}
+#sec .quotes {
+    font-family: light italic;
+    font-size: 18px;
+
+}
+#sec .author {
+    font-family: emibold;
+    font-size: 18px; 
+
+}
+
+#third {
+
+    background: #f9e42e;
+    padding: 20px;
+    background-size: auto; 
+    
+
+}
+#third .button{
+    background-color: #033048; 
+    color:white; 
+    border-radius: 12px 5px  ;
+}
+
 
 footer {
-
+    background-color: #121212 ; 
+    border : 12px , 5px ; 
+    font-weight:200;
+    font-size: 28px;
+    padding: 50px;
+    text-align: center;
 }
+.end {
+    font-weight: 800;
+    color :#f9e42e ; 
+}
+footer nav a {
+    margin-bottom: 50px;
+    padding:20px; 
+  }
+  
+    
+.copyright  {
+font-size: 9px; 
+font-family: semibold; 
+color : white; 
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.button {
+display: block;
+width: 280px ;
+padding: 9px ;
+margin: auto; 
+text-align: center;
+font-weight: 400;
+font-size: 20px;
 
-
-
+} 
 
