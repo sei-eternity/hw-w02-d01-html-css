@@ -1,50 +1,88 @@
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+header {
+    margin-top: 33px;
+    text-align: left;
+    font-size: 30px;
+    padding: 15px;
+}
+button.getItNow{
+    color: #033048;
+    font-weight: bolder;
+    background-color:#f9e42e;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 9px;
 }
 
-/******************************************
-/* FONTS
-/*******************************************/
+.Relaxr_Box {
+    background-image: url(../images/header_bg.jpg);
+    color: white;
+    font-size: 24px;
+    height: 400px;
+    padding: 40px;
+    background-image: image("header_bg.jpg");
+    border: 70px;
+    text-align: center;
+}
+.Benefits {
+    color: #033048;
+    margin-top: 33px;
+    text-align: left;
+    font-size: 30px;
+    padding: 15px;
+}
+.BenefitsBox {
+    color: #606161;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 300px;
+    padding: 60px;
+    background-color: #e1e2e2;
+    border: 70px;
+}
 
-/* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.qoute {
+    background-image: url(../images/testimonial_bg.jpg);
+    color: white;
+    font-size: 24px;
+    height: 200px;
+    padding: 40px;
+    border: 70px;
+    text-align: center; 
+}
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
+.singUpbutton {
+    color: white;
+    font-weight: bolder;
+    background-color: #033048;
+    padding: 10px 32px;
+    border-radius: 9px;
+    text-align: center;
+    align-items:center; 
 
+}
+.singUp_box {
+    background-color: #f9e42e;
+    align-content: center;
+    height: 80px;
 
-body {
+}
+
+.last_box {
+    
     color: #000;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-header {
-
+    height: 100px;
+    padding-top: 60px;
+    padding-left: 300px;
+    padding-bottom: 20px;
+    background-color: #606161;
 }
 
 footer {
-
+    
+    color: #e1e2e2;
+    
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
-
-
