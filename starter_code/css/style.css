@@ -29,6 +29,59 @@ body {
 }
 
 
+  h1 {
+  background-color: yellow;
+    font-style: italic;
+    font-size: 24px;
+    color: yellowgreen;
+  }
+  h2 {
+    font-style: Semibold;
+    font-size: 22px;
+  }
+  h3 {
+  
+  background-color: 002211
+  font-style: Semibold;
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 13px;
+  font-style:  Light;
+   
+  }
+  li {
+    font-size: 13px;
+  font-style: light;
+    
+  }
+  
+  
+  p {
+  
+    border: 5px ;
+    border-radius: 12px;
+    font-style: bold;
+    display: inline;
+    margin-right: 20px;
+    border: 5px dotted #fff;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    }
+  
+  }
+  
+  
+  /* li a span {
+    font-size: 42px;
+    display: block;
+  } */
+  /* ul {
+    display: none;
+  } *
+
 /******************************************
 /* LAYOUT
 /*******************************************/
