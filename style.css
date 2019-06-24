@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+    font-family: 'Open Sans';
+    font-style: normal;
+    -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+h3{
+    color:white;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+h4 {
+    font-weight: 600;
+    font-size:20px;
+    color:#033048;
+}
+h2{
+    color: white;
+    font-size: 24px;
+    font-weight: Semibold;
+}
+#part1{
+    background-image: url("header.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+button{
+    background-color:#f9e42e ;
+    font-weight: 800;
+    font-size: 14px;
+    position: relative;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color:gray;
+}
+#part2{
+    background-color:#f0efef;
+    justify-content: center;
+    
+}
+p{
+    font-weight: 300;;
+    font-size: 13px;
+    color: #606161;
+
+  
+}
+ul {
+    text-align: left;
+    list-style: inside;
+  }
+li {
+    font-weight:300;
+    font-size: 13px;
+    color: #606161;
+}
+
+    
+.part3{
+    background-image: url("header3.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+ 
+  background-size: cover;
+}
+.part4{
+    background-color:#f9e42e;
+
+}
+ .pargraph3{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+
+}
+.writer{
+    font-weight: 600;
+    color: white;
+}
+.secoundButton {
+    border-radius: 5px;
+    background-color:#033048 ;
+    font-weight:800 ;
+    font-size: 24px;
+color: white;
+}
+footer{
+    background-color:#282626;
+
+}
+small{
+    color: white;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center a {
+    margin: 0 5px;
+}
+
