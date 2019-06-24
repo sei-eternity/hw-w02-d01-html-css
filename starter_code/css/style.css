@@ -27,24 +27,50 @@ body {
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
 }
-
+body h1{
+    background-color: #033048;
+    font-weight: 600;
+    font-size: 20 px;
+}
+body p{
+    font-size: 13 px;
+    font-weight: lighter;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 header {
+    background-color: #f0efef;
+    background-image: url(images/header_bg.jpg) 100% 100% no-repeat;
+}
+header > h1{
+    font-size: 24 px;
+    font-weight: bold;
+}
+header > h1{
+    font-size: 24 px;
+    font-weight: bold;
+}
+header p{
+    font-size: 24 px;
+    font-weight: 600;
+}
+header > button {
+    background-color: #f9e42e;
+    font-weight: bolder;
+    font-size: 14 px;
+    border: 5 px;
 
 }
-
 footer {
-
+background-color: #121212;
 }
-
+footer > p{
+    background-color: #033048;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
 
