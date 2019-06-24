@@ -69,17 +69,23 @@ footer h1{
     font-size: 24px;
 
 }
-.demo{
+#demo{
   margin:auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+}
+.formName{
+  width: 300px;
+  height: 250px;
+  margin: auto;
+  display: block;
+  float: none;
+flex-direction: column;
+
 }
 form{
-  width: 400px;
+  width: 200px;
   height: 200px;
   margin:auto;
-  display:flex;
 
 
 }
@@ -89,12 +95,14 @@ input{
   border-bottom: 1px solid #033048;
   font-size: 20px;
   height: 50px;
+  width: 100%;
   margin: 5px auto;
 
 }
-form .get-but{
+.get-but{
   margin-top: auto 120px ;
   height: 50px;
+  width: 100%;
   display:flex;
 
 }
