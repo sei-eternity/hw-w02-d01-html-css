@@ -1,0 +1,18 @@
+
+
+
+
+p.header { color:white; font-size: 150px; text-align: center;}
+
+body {
+    background-image: url("elaxerbackground.jpg");
+    
+
+}
+
+h2 { color:white; font-size: 20px; text-align: center; padding-bottom: 20px;}
+
+.benefits {background-color: rgb(22, 19, 51); opacity: 0.5; font-size: 20px;color: white;  text-align: center;}
+.qoute { background-color: white; opacity: 0.5; font-size: 20; color:rgb(22, 19, 51); text-align: center;} 
+.list { text-align: center;}
+.button {  background-color:white;text-align: center;border: none;padding: 15px 32px; justify-content: center; display: block;}
