@@ -26,6 +26,9 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
 }
 
 
@@ -33,18 +36,146 @@ body {
 /* LAYOUT
 /*******************************************/
 
-header {
+header{
+  padding: 20px;
+  text-align: left;
+
+}
+footer{
+  text-align: center;
+  background-color: #121212;
+  height: 200px;
+}
+footer h1{
+  padding-top: 30px;
+  font-size: 34px;
+  margin: 0;
+  color: #f9e42e;
+}
+
+.logo{
+  font-size: 34px;
+
+}
+.contener1 {
+  text-align: center;
+  height: 600px;
+   background-image: url("../images/header_bg.jpg");
+
+}
+ .contener1 h2{
+    margin-top: 70px;
+    font-weight:  bold;
+    font-size: 24px;
+
+}
+.demo{
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  width: 400px;
+  height: 200px;
+  margin:auto;
+  display:flex;
+
+
+}
+input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #033048;
+  font-size: 20px;
+  height: 50px;
+  margin: 5px auto;
+
+}
+form .get-but{
+  margin-top: auto 120px ;
+  height: 50px;
+  display:flex;
+
+}
+.contener2{
+height: 500px;
+  color: #606161;
+
+}
+.contener2 h2 , p ,ul{
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  width: 500px;
+  font-weight: 400;
+
+}
+.contener2 h2{
+  color:#033048;
+  font-size: 27px;
+  font-weight: 400;
+
+}
+.contener3{
+  height: 250px;
+  padding-top: 40px;
+   text-align: center;
+  background-image: url("../images/testimonial_bg.jpg");
+  font-size: 24px;
+
+
+}
+.contener3 p {
+  width: 500px;
+  margin: auto;
+  font-weight: 100;
+  line-height: 40px;
+  font-style: italic;
+
+}
+.sign{
+  height: 80px;
+   text-align: center;
+  background-color: #f9e42e
+
+}
+a{
+  padding: 10px;
+}
+
+a img{
+  padding: 3px;
+  height: 40px;
+
+}
+.sign button{
+  background-color: #033048;
+  color:#fff;
+
+
+}
+button{
+  background-color: #f9e42e;
+  padding: 10px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: 1px solid #f9e42e;
+
+}
+.icon img{
+  padding-top: 10px;
+  height: 30px;
+}
+.copy{
+  margin: auto;
+padding-top: 40px;
 
 }
 
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-

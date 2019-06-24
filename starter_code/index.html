@@ -1,18 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
+<html lang="en" dir="ltr">
 
-		<title>Blank Template</title>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
+  <title>Relaxr Landing Page</title>
+</head>
 
-	</head>
-	<body>
-		<h1>Blank Template</h1>
-	</body>
+<body>
+
+  <main>
+    <div class="contener1">
+      <header>
+        <h1 class='logo'>Relax</h1>
+      </header>
+      <h2>Get piece of mind with a single tap</h2>
+      <p id="demo">welcome to Relax</p>
+      <form>
+        <input id="myText" type="text" name="" value="" placeholder="Your name">
+        <button class="get-but" onclick=" myFunction()" type="button" name="button">Get start</button>
+      </form>
+
+    </div>
+    <div class="contener2">
+      <h2>Benfits</h2>
+      <p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
+      <ul>
+        <li>Schedule meetings for you</li>
+        <li>Excel automation to complete your work for you</li>
+        <li>Responds to emails on your behalf</li>
+        <li>Does all your work for you with our revolutionary AI technology</li>
+      </ul>
+    </div>
+    <div class="contener3">
+      <p>&ldquo;Relaxr changed my life. I&rsquo;ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.&rdquo;
+      </p><span>- Amanda, Intuit</span>
+
+    </div>
+    <div class="sign">
+      <button class="signbutton" type="button" name="button">Sign Up Now!</button>
+
+    </div>
+
+  </main>
+  <footer>
+    <h1>Relax</h1>
+    <a href="#" class="icon"> <img src="images/twitter.png" alt="twitter"> </a>
+    <a href="#" class="icon"> <img src="images/facebook.png" alt="twitter"> </a>
+
+    <p class="copy"> © 2019 Relaxr.</p>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myText").value;
+      document.getElementById("demo").innerHTML = x;
+    }
+  </script>
+</body>
+
 </html>

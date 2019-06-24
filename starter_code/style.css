@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #04f;
+  color: #fff;
+}
+header{
+  padding: 20px;
+}
+footer{
+  text-align: center;
+
+}
+.contener1 {
+  text-align: center;
+  height: 400px;
+  border:2px solid #000;
+
+}
+ .contener1 h2{
+    margin-top: 150px;
+}
+.contener2{
+height: 400px;
+ border:2px solid #000;
+}
+.contener2 h2 , p ,ul{
+  margin-left: 50px;
+  margin-top: 50px;
+
+
+}
+.contener3{
+  height: 400px;
+  border:1px solid #000;
+  text-align: center;
+
+}
+.sign{
+  height: 80px;
+  border:2px solid #000;
+  text-align: center;
+
+}
